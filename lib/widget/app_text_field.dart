@@ -129,7 +129,7 @@ class _AppTextFieldState extends State<AppTextField> {
                             const BorderSide(width: 1.5, color: AppTheme.grey),
                       ),
               errorStyle: widget.error ?? false
-                  ? AppUtils.textGreyPoppinsRegular13
+                  ? AppUtils.textblack5PoppinsRegular16
                   : null,
               enabledBorder: widget.enabledBorder ??
                   OutlineInputBorder(
@@ -156,7 +156,8 @@ class _AppTextFieldState extends State<AppTextField> {
                     borderSide:
                         const BorderSide(width: 1.5, color: AppTheme.black),
                   ),
-              hintStyle: widget.hintStyle,
+              hintStyle:
+                  widget.hintStyle ?? AppUtils.textblack5PoppinsRegular16,
               hintText: widget.hint,
               border: widget.border ?? InputBorder.none,
               isDense: true,

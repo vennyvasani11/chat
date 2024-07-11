@@ -43,7 +43,11 @@ class AppUtils {
       color: AppTheme.black,
       fontWeight: FontWeight.w400,
       fontSize: 16.sp);
-
+ static TextStyle textblack5PoppinsRegular16 = TextStyle(
+      fontFamily: "Poppins",
+      color: AppTheme.black.withOpacity(0.5),
+      fontWeight: FontWeight.w400,
+      fontSize: 16.sp);
   static TextStyle textblackPoppinsRegular18 = TextStyle(
       fontFamily: "Poppins",
       color: AppTheme.black,
@@ -57,6 +61,40 @@ class AppUtils {
       fontSize: 13.sp);
 
   // //========================================================================================================================//
+ // SFPro_REGULAR
+
+  static TextStyle textblackSFProRegular13 = TextStyle(
+      fontFamily: "SFPro",
+      color: AppTheme.black,
+      fontWeight: FontWeight.w400,
+      fontSize: 13.sp);
+  static TextStyle textblackSFProRegular14 = TextStyle(
+      fontFamily: "SFPro",
+      color: AppTheme.black,
+      fontWeight: FontWeight.w400,
+      fontSize: 14.sp);
+      static TextStyle textblueSFProRegular14 = TextStyle(
+      fontFamily: "SFPro",
+      color: AppTheme.blue,
+      fontWeight: FontWeight.w400,
+      fontSize: 14.sp);
+  static TextStyle textwhiteSFProRegular16 = TextStyle(
+      fontFamily: "SFPro",
+      color: AppTheme.white,
+      fontWeight: FontWeight.w400,
+      fontSize: 16.sp);
+
+  static TextStyle textblackSFProRegular18 = TextStyle(
+      fontFamily: "SFPro",
+      color: AppTheme.black,
+      fontWeight: FontWeight.w400,
+      fontSize: 18.sp);
+
+  static TextStyle textGreySFProRegular13 = TextStyle(
+      fontFamily: "SFPro",
+      color: AppTheme.grey,
+      fontWeight: FontWeight.w400,
+      fontSize: 13.sp);
 
   // //========================================================================================================================//
   // // Poppins_MEDIUM
@@ -70,6 +108,11 @@ class AppUtils {
   // //========================================================================================================================//
   //
   // // Poppins_SEMI_BOLD
+ static TextStyle textwhiteSFProSemiBold16 = TextStyle(
+      fontFamily: "SFPro",
+      color: AppTheme.white,
+      fontWeight: FontWeight.w600,
+      fontSize: 16.sp);
 
   // static TextStyle textgreenPoppinsSemiBold10 = TextStyle(
   //     fontFamily: "Poppins",
@@ -96,13 +139,13 @@ class AppUtils {
 
   // //========================================================================================================================//
   //
-  // // Poppins_BOLD
+  // // SFPro_BOLD
 
-  // static TextStyle textlightPrimaryPoppinsBold11 = TextStyle(
-  //     fontFamily: "Poppins",
-  //     color: AppTheme.lightPrimary,
-  //     fontWeight: FontWeight.w700,
-  //     fontSize: 9.sp);
+   static TextStyle textwhiteSFProBold40 = TextStyle(
+      fontFamily: "SFPro",
+      color: AppTheme.white,
+      fontWeight: FontWeight.w700,
+      fontSize: 40.sp);
   // static TextStyle textBlackPoppinsBold9 = TextStyle(
   //     fontFamily: "Poppins",
   //     color: AppTheme.black,
